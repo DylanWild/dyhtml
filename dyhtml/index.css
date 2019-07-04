@@ -1,0 +1,70 @@
+document, body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    
+    flex-wrap: wrap;
+}
+#box{
+    width: 20vw;
+    height: 20vw;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(5rem + 2vmin);
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    background-color: orange;
+
+    margin: 4px;
+}
+
+#nobox{
+   display: flex;
+   align-content: center;
+   order: -1;
+   margin: 3px;
+}
+
+#myBtn{
+    display: flex;
+   align-content: center;
+   order: 0;
+   margin: 3px;
+}
+
+
+#picbox{
+    display: flex;
+    align-content: center;
+    order: -2;
+    margin: 3px;
+ 
+ }
+ 
+ #reset{
+     display: flex;
+    align-content: center;
+    order: 0;
+    margin: 3px;
+ }
